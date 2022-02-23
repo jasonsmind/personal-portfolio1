@@ -52,12 +52,19 @@ p {
 }
 
 figure {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/8-bit.jpg");
-  background-size: cover;
-  background-position: center;
+  cursor: pointer;
+  margin-bottom: 40px;
+  transition: all 1s;
+  text-align: center;
+}
+
+figure:hover {
+  transform: scale(1.1);
+}
+
+img {
+  display: block;
+  margin: 20px auto;
 }
 
 .float-left {
